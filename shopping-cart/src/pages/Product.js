@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { v4 as uuidv4 } from 'uuid'
 import { useDispatch, useSelector } from 'react-redux'
 import ProductCard from './Products/ProductCard'
-import { setProducts } from '../state/actions/products'
+import { setProducts } from '../states/actions/products'
 
 const Products = () => {
   const products = useSelector((state) => state.products)

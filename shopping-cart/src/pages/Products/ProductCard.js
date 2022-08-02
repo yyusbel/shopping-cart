@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { useDispatch } from 'react-redux'
 import Button from '../../components/elements/Button'
-import { addToCart } from '../../state/actions/cart'
+import { addToCart } from '../../states/actions/cart'
 
 const ProductCard = ({ id, title, price, image, category }) => {
   const product = { id, title, price, image, category }

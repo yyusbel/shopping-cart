@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { useSelector, useDispatch } from 'react-redux'
 import Button from '../elements/Button'
 import CardItemCard from './CartItemCard'
-import { closeCart } from '../../state/actions'
+import { closeCart } from '../../states/actions'
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart)
